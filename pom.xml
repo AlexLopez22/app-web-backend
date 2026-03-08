@@ -82,13 +82,10 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
-			<version>13.2.1.jre11</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/mssql-jdbc-13.2.1.jre11.jar</systemPath>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
 		</dependency>
-
 	</dependencies>
 	<build>
 		<plugins>
