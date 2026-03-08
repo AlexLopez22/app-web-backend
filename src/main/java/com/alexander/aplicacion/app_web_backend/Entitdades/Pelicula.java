@@ -19,6 +19,7 @@ public class Pelicula {
     
     @Column(name = "url_stream")
     private String urlStream; // enlace al servidor/CDN
+    
     private String categoria;
 
 
