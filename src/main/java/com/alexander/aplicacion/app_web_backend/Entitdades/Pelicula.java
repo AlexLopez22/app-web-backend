@@ -22,7 +22,9 @@ public class Pelicula {
     
     private String categoria;
 
+    public Pelicula(){
 
+    }
     
     public Pelicula(Long id, String titulo, String descripcion, String urlStream, String categoria) {
         this.id = id;

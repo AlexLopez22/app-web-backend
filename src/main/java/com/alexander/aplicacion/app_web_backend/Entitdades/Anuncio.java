@@ -17,6 +17,10 @@ public class Anuncio {
     private String posicion; // catalogo, reproductor, etc.
     private boolean activo;
     
+    public Anuncio(){
+        
+    }
+
     public Anuncio(Long id, String tipo, String posicion, boolean activo) {
         this.id = id;
         this.tipo = tipo;

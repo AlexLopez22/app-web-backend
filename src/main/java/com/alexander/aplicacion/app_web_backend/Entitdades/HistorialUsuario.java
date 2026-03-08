@@ -25,7 +25,9 @@ public class HistorialUsuario {
     @Column(name = "fecha_visto")
     private LocalDateTime fechaVisualizacion;
 
-
+    public HistorialUsuario(){
+        
+    }
     
     public HistorialUsuario(Long id, Long usuarioId, Long peliculaId, LocalDateTime fechaVisualizacion) {
         this.id = id;
